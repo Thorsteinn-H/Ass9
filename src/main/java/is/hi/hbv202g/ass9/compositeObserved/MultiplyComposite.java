@@ -2,6 +2,8 @@ package is.hi.hbv202g.ass9.compositeObserved;
 
 import java.util.ArrayList;
 import java.util.List;
+import is.hi.hbv202g.ass9.compositeObserved.MathExpression;
+import is.hi.hbv202g.ass9.compositeObserved.Observer;
 
 public class MultiplyComposite implements MathExpression, Observer {
     private List<MathExpression> expressions = new ArrayList<>();

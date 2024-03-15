@@ -7,7 +7,6 @@ public class MixedCompositeObserverTest {
 
 	@Test
 	public void testMixedPlusMultiplyCompositesObserver() {
-
 		NumberLeaf number1 = new NumberLeaf(1);
 		NumberLeaf number2 = new NumberLeaf(2);
 		NumberLeaf number4 = new NumberLeaf(4);
